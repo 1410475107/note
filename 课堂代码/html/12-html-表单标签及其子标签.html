@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>表单标签及其子标签</title>
+</head>
+<body>
+	<form action="./11-html-行内标签和块级标签.html" method="GET">
+		账号：<input type="text" name="username" placeholder="请输入账号" value="华清远见鲁老师">  <br>
+		密码：<input type="password" name="passwd" placeholder="请输入密码" value="123456">  <br>
+		性别：	<input type="radio" name="sex" value="male">帅哥
+				<input type="radio" name="sex" value="female">美女  
+				<input type="radio" name="sex" value="secret" checked="checked"> 保密
+				<br>
+		爱好：	<input type="checkbox" name="honey" value="读书" checked> 读书
+				<input type="checkbox" name="honey" value="运动"> 运动
+				<input type="checkbox" name="honey" value="写代码" checked="123"> 写代码
+				<input type="checkbox" name="honey" value="学习"> 学习 <br>
+		来自：	<select name="province">
+					<option value="">=请选择省份=</option>
+					<option value="1">四川</option>
+					<option value="2">贵州</option>
+					<option value="3" selected>云南</option>
+					<option value="4">重庆</option>
+				</select>
+				<br>
+		简介：	<textarea name="descrit" cols="150" rows="6">本人乃帅哥一枚，
+来自四川大学
+				</textarea>
+		<br>
+
+		<input type="submit" value="登录">  
+		<input type="reset" value="重置">
+
+		
+	</form>
+
+
+</body>
+</html>
