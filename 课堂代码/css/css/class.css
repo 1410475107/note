@@ -1,0 +1,12 @@
+.mydiv{
+	width: 300px;  /*定义元素的宽度*/
+	height: 200px;  /*定义元素的高度*/
+	border:2px dashed red; /*定义边框线*/
+}
+
+.mydiv1{
+	font-size: 18px;
+	font-family: 微软雅黑;
+	text-decoration: underline;
+
+}

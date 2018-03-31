@@ -1,0 +1,14 @@
+/*CSS文件里面不需要style标签*/
+p{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;/*加下划线*/
+	text-decoration: overline; /*加上划线*/
+	text-decoration: line-through; /*删除线*/
+	font-style: italic; /*让文字倾斜*/
+}
+
+i{
+	color: green;
+	font-style: normal; /*normal表示清除斜体*/
+}
