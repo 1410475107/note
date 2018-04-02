@@ -1,0 +1,12 @@
+#myid i{
+	color: #f00;
+	font-style: normal;
+}
+
+/*子代选择器*/
+
+#myid > i{
+	font-weight: bold;;
+	text-decoration: underline;;
+	font-family: 楷体;
+}

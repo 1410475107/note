@@ -1,0 +1,39 @@
+a:link{
+	color: #333;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:visited{
+	color: #a89;
+}
+
+
+a:hover{
+	color: #f00;
+	font-size: 16px;
+}
+
+a:active{
+	font-weight: bolder;
+	font-size: 24px;
+}
+/*LoVe  HAte*/
+.mydiv{
+	width: 200px;
+	height: 200px;
+	border: 1px solid #555;
+	cursor: pointer;  /*把鼠标箭头定义成小手形状*/
+}
+
+.mydiv:hover{
+	width: 300px;
+	background-color: #fae;
+}
+
+input:focus{
+	width: 120px;
+	height: 32px;
+	border:1px solid #f00;
+	outline: none;  /*清除外边线*/
+}

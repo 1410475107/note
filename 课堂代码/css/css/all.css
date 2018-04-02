@@ -1,0 +1,15 @@
+
+li{
+	color: #00f;
+	font-family: 楷体, 微软雅黑;
+}
+
+
+/*交集选择器*/
+li.my{
+	color: #f00;
+}
+
+.my{
+	text-decoration: underline;
+}

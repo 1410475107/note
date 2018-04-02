@@ -1,0 +1,15 @@
+/*标签选择器*/
+div{
+	width:300px;
+	height: 200px;
+	border:1px solid #f00;
+	border-bottom: 2px dashed #345;
+	margin: 50px 60px 80px;
+	padding: 60px 80px;
+	/*margin-top: 100px;*/
+	background-color: #612;
+	background-image: url(../img/ljh.jpg);
+	background-position: center;
+}
+
+

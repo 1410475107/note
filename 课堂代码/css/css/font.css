@@ -1,0 +1,24 @@
+/*标签选择器*/
+div{
+	width:300px;
+	height: 200px;
+	border:1px solid #f00;
+}
+/*类选择器*/
+.mydiv{
+	color: #e4163c;
+	font-family: 楷体, 微软雅黑, 黑体;
+	font-size: 22px;
+	font-weight: bolder;
+	font-style: normal;
+	/*font-style: italic;*/
+}
+.mydiv i{
+	font-style: normal;
+}
+/*ID选择器*/
+#mydiv{
+	letter-spacing: 2px;
+	text-indent: 2em;
+}
+
