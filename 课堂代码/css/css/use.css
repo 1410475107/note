@@ -1,0 +1,28 @@
+*{
+	color: gray;
+}
+
+div{
+	width: 200px;
+	height: 50px;
+	border:1px solid #666;
+	
+	color: red;
+}
+.mydiv1{
+	color:#d88 !important;
+	font-size: 24px;
+}
+ 
+.mydiv{
+	color:green;
+	font-size: 18px;
+}
+
+
+#mydiv{
+	color:blue;
+	font-size: 32px;
+}
+
+
