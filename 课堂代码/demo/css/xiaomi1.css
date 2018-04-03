@@ -1,0 +1,66 @@
+/*写css第一件事情就是清除浏览器的默认样式*/
+*{margin: 0;padding: 0;}
+body{
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei";
+}
+/*去掉li标签前面的点*/
+li{
+	list-style-type: none;
+}
+
+.date{
+	margin: 100px;
+	width: 234px;
+	height: 280px;
+	border-top:1px solid #e53935;
+	background-color: #f1eded;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.date span{
+	font-size: 21px;
+	color: #ef3a3b;
+}
+.date img{
+	margin-top: 30px;
+}
+.date p{
+	font-size: 15px;
+	color: #666;
+	margin-top: 25px;
+}
+
+.date .hms li{
+	float: left;
+}
+/*交集选择器*/
+.date .hms li.li1{
+	width: 46px;
+	height: 46px;
+	background-color: #605751;
+	color: #fff;
+	font-size:24px;
+	/*定义一个行高，行高的高度和盒子的高度一致，实现文字在垂直方向居中*/
+	line-height: 46px;
+}
+.date .hms li.mh{
+	width: 16px;
+	font-size: 28px;
+	height: 46px;
+	line-height: 46px;
+	color:#605751;
+}
+/*让一个块级元素在父级元素里面水平方向居中:margin的左右偏移量是auto；*/
+.date .hms{
+	width: 171px;
+	margin: 30px auto;
+}
+/*
+本案例牵涉到重要知识点：
+	1，必须定义通配符选择器，清除浏览器默认样式；
+	2，使用list-style-type:none;去掉li标签前面的点；
+	3，使用line-height 让文字在垂直方向居中 ；
+	4，使用margin让一个元素在父级元素的水平方向居中；
+		上下边距无所谓，根据实际情况设置，左右边距必须是auto；
+*/

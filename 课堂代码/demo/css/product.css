@@ -1,0 +1,126 @@
+*{margin:0;padding:0;}
+li{
+	list-style-type: none;
+}
+body{
+	font-family: tahoma,arial,'Hiragino Sans GB';
+}
+a:link, a:visited{
+	font-size: 12px;
+	color: #3c3c3c;
+	text-decoration: none;
+}
+a:hover, a:active{
+	text-decoration: underline;
+	color: #f40;
+}
+.item{
+	margin-left: 300px;
+	margin-top: 30px;
+	width: 220px;
+	height: 364px;
+	border: 1px solid #ccc;
+	position: relative;
+}
+.item:hover{
+	border-color: #f00;
+}
+
+.item img{
+	width: 220px;
+	height: 220px;
+}
+.item .price{
+	font-size: 18px;
+	font-weight: 700;
+	color: #f40;
+	font-family: arial;
+	position: absolute;
+	left: 11px;
+	top: 235px;
+}
+.item .buynum{
+	color: #888;
+	font-size: 12px;
+	position: absolute;
+	right: 11px;
+	top: 236px;
+}
+
+.item .title{
+	height: 40px;
+	line-height: 20px;
+	margin: 10px;
+	width: 200px;
+	position: absolute;
+	top: 251px;
+	text-align: left;
+}
+
+.item .line3{
+	width: 8px;
+	height: 12px;
+	position: absolute;
+	bottom: 42px;
+	left: 11px;
+}
+
+.item .line3 li{
+	width: 8px;
+	height: 2px;
+	background-color: #f40;
+	margin-top: 2px;
+}
+
+.item .shopname{
+	position: absolute;
+	left: 21px;
+	bottom: 40px;
+}
+
+.item .shopname a:link, 
+.item .shopname a:visited{
+	color: #888;
+	text-decoration: underline;
+}
+.item .shopname a:hover, 
+.item .shopname a:active{
+	color: #f40;
+}
+
+.item .add{
+	position: absolute;
+	right: 11px;
+	top: 308px;
+}
+
+.item .tm{
+	width: 18px;
+	height: 17px;
+	background-image: url(../img/pbg.png);
+	background-position: -212px -199px;
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 11px;
+	bottom: 10px;
+	background-color: #eee;
+}
+
+.item .new{
+	left: 35px;
+	background-position: -82px -199px;
+
+}
+
+.item .ww{
+	width: 18px;
+	height: 18px;
+	background-image: url(../img/pbg1.png);
+	background-position: -434px -85px;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 11px;
+	bottom: 10px;
+	/*background-color: #eee;*/
+}
+
